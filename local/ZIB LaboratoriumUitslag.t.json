@@ -1,0 +1,1034 @@
+{
+  "@type" : "TEMPLATE",
+  "uid" : "17b5183c-aea2-4364-a624-6a81a5929bb9",
+  "description" : {
+    "@type" : "RESOURCE_DESCRIPTION",
+    "originalAuthor" : {
+      "date" : "2024-06-12"
+    },
+    "otherContributors" : [ ],
+    "lifecycleState" : {
+      "codeString" : "unmanaged"
+    },
+    "ipAcknowledgements" : { },
+    "references" : { },
+    "conversionDetails" : { },
+    "otherDetails" : {
+      "licence" : "",
+      "custodian_organisation" : "",
+      "original_namespace" : "",
+      "original_publisher" : "",
+      "custodian_namespace" : "",
+      "sem_ver" : "0.1.0",
+      "build_uid" : "8729b68b-5dfd-476a-b5a8-16d8faa3563e",
+      "MD5-CAM-1.0.1" : "d8c3d6c3aa8eda403b78e07b8f536172",
+      "PARENT:MD5-CAM-1.0.1" : "AB458098681E9505986ADFCEC7FEC742"
+    },
+    "details" : {
+      "de" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "de"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "sv" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "sv"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "nb" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nb"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "pt-br" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "pt-br"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "en" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "en"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "ar-sy" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ar-sy"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "it" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "it"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "zh-cn" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "zh-cn"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "ca" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ca"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "es" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "nl" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nl"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      }
+    }
+  },
+  "annotations" : {
+    "@type" : "RESOURCE_ANNOTATIONS",
+    "documentation" : {
+      "ar-sy" : {
+        "/data[at0001]/events[at0002]/data[at0003]/items[at0100]" : {
+          "fhir_mapping" : "*DiagnosticReport.requestDetail.clinicalNotes(en)"
+        },
+        "/data[at0001]/events[at0002]/data[at0003]/items[at0057]" : {
+          "fhir_mapping" : "*DiagnosticReport.conclusion(en)"
+        },
+        "/data[at0001]/events[at0002]/data[at0003]/items[at0118]" : {
+          "fhir_mapping" : "*DiagnosticReport.presentedForm(en)"
+        }
+      },
+      "en" : { },
+      "nb" : { },
+      "zh-cn" : {
+        "/data[at0001]/events[at0002]/data[at0003]/items[at0100]" : {
+          "fhir_mapping" : "*DiagnosticReport.requestDetail.clinicalNotes(en)"
+        },
+        "/data[at0001]/events[at0002]/data[at0003]/items[at0057]" : {
+          "fhir_mapping" : "*DiagnosticReport.conclusion(en)"
+        },
+        "/data[at0001]/events[at0002]/data[at0003]/items[at0118]" : {
+          "fhir_mapping" : "*DiagnosticReport.presentedForm(en)"
+        }
+      },
+      "de" : { },
+      "it" : { },
+      "nl" : { },
+      "sv" : { },
+      "pt-br" : { },
+      "es" : { },
+      "ca" : { }
+    }
+  },
+  "parentArchetypeId" : "openEHR-EHR-OBSERVATION.laboratory_test_result.v1",
+  "differential" : true,
+  "archetypeId" : {
+    "@type" : "ARCHETYPE_HRID",
+    "value" : "openEHR-EHR-OBSERVATION.t_laboratory_test_result.v1"
+  },
+  "definition" : {
+    "@type" : "C_COMPLEX_OBJECT",
+    "rmTypeName" : "OBSERVATION",
+    "nodeId" : "at0000.1",
+    "attributes" : [ {
+      "@type" : "C_ATTRIBUTE",
+      "rmAttributeName" : "data",
+      "children" : [ {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "HISTORY",
+        "nodeId" : "at0001",
+        "attributes" : [ {
+          "@type" : "C_ATTRIBUTE",
+          "rmAttributeName" : "events",
+          "children" : [ {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "EVENT",
+            "nodeId" : "at0002",
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "data",
+              "children" : [ {
+                "@type" : "C_COMPLEX_OBJECT",
+                "rmTypeName" : "ITEM_TREE",
+                "nodeId" : "at0003",
+                "attributes" : [ {
+                  "@type" : "C_ATTRIBUTE",
+                  "rmAttributeName" : "items",
+                  "children" : [ {
+                    "@type" : "C_ARCHETYPE_ROOT",
+                    "rmTypeName" : "CLUSTER",
+                    "occurrences" : "0..1",
+                    "nodeId" : "at0097.1",
+                    "attributes" : [ ],
+                    "attributeTuples" : [ ],
+                    "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-laboratory_test_analyte-001.v1",
+                    "referenceType" : "archetypeOverlay"
+                  }, {
+                    "@type" : "C_ARCHETYPE_ROOT",
+                    "rmTypeName" : "CLUSTER",
+                    "occurrences" : "0..1",
+                    "nodeId" : "at0065.1",
+                    "attributes" : [ ],
+                    "attributeTuples" : [ ],
+                    "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-specimen-001.v1",
+                    "referenceType" : "archetypeOverlay"
+                  } ]
+                } ],
+                "attributeTuples" : [ ]
+              } ]
+            } ],
+            "attributeTuples" : [ ]
+          } ]
+        } ],
+        "attributeTuples" : [ ]
+      } ]
+    } ],
+    "attributeTuples" : [ ]
+  },
+  "terminology" : {
+    "@type" : "ARCHETYPE_TERMINOLOGY",
+    "conceptCode" : "at0000",
+    "termDefinitions" : {
+      "ar-sy" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "ZIB LaboratoriumUitslag",
+          "description" : "*The result, including findings and interpretation, of a laboratory investigation performed on specimens from individuals or related materials(en)"
+        }
+      },
+      "en" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "ZIB LaboratoriumUitslag",
+          "description" : "The result, including findings and the laboratory's interpretation, of an investigation performed on specimens collected from an individual or related to that individual."
+        }
+      },
+      "nb" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "ZIB LaboratoriumUitslag",
+          "description" : "Resultat, inkludert funn og laboratoriets tolkning, av en laboratorieundersøkelse utført på prøvemateriale fra et individ eller relatert til individet."
+        }
+      },
+      "zh-cn" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "ZIB LaboratoriumUitslag",
+          "description" : "*The result, including findings and interpretation, of a laboratory investigation performed on specimens from individuals or related materials(en)"
+        }
+      },
+      "de" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "ZIB LaboratoriumUitslag",
+          "description" : "Das Ergebnis - einschließlich der Befunde und der Interpretation des Labors - einer Untersuchung, die an Proben durchgeführt wurde, die von einer Einzelperson stammen oder mit dieser Person zusammenhängen."
+        }
+      },
+      "it" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "ZIB LaboratoriumUitslag",
+          "description" : "L'esito, inclusi i risultati e l'interpretazione, di una indagine di laboratorio effettuata su campioni provenienti da individui o relativi materiali."
+        }
+      },
+      "nl" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "ZIB LaboratoriumUitslag",
+          "description" : "*The result, including findings and the laboratory's interpretation, of an investigation performed on specimens collected from an individual or related to that individual.(en)"
+        }
+      },
+      "sv" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "ZIB LaboratoriumUitslag",
+          "description" : "Resultatet av en undersökning, inklusive fynd och laboratoriets tolkning, utförd på provmaterial från en individ eller relaterad till individen. Exempel på provmaterial relaterat till individen kan vara fostervattenprov där provet tas från mammans kropp men provet avser fostret."
+        }
+      },
+      "pt-br" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "ZIB LaboratoriumUitslag",
+          "description" : "O resultado, incluindo achados e a interpretação do laboratório, de uma investigação realizada em amostras coletadas de um indivíduo ou relacionadas a esse indivíduo."
+        }
+      },
+      "es" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "ZIB LaboratoriumUitslag",
+          "description" : "El resultado, incluidas las conclusiones y la interpretación del laboratorio, de una investigación realizada con muestras recogidas de una persona o relacionadas con ella."
+        }
+      },
+      "ca" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "ZIB LaboratoriumUitslag",
+          "description" : "El resultat, incloses les conclusions i la interpretació del laboratori, d'una investigació realitzada amb mostres recollides o relacionades amb una persona."
+        }
+      }
+    },
+    "termBindings" : { },
+    "terminologyExtracts" : { },
+    "valueSets" : { }
+  },
+  "adlVersion" : "1.4",
+  "buildUid" : "7bb7fed1-f613-3343-85f7-b801e7a0500d",
+  "rmName" : "openehr",
+  "rmRelease" : "1.1.0",
+  "generated" : true,
+  "templateId" : "ZIB LaboratoriumUitslag",
+  "otherMetaData" : { },
+  "templateOverlays" : [ {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "50727b88-bbe5-4d38-bb50-439599ebf554",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "2C3F38DD3585D55E2EE0A3210BAF13D4"
+      },
+      "details" : { }
+    },
+    "annotations" : {
+      "@type" : "RESOURCE_ANNOTATIONS",
+      "documentation" : {
+        "en" : {
+          "/items[at0024]" : {
+            "hl7v2_mapping" : "OBX.3",
+            "fhir_mapping" : "Observation.code"
+          },
+          "/items[at0001]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
+          },
+          "/items[at0003]" : {
+            "hl7v2_mapping" : "NTE.3",
+            "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0006]" : {
+            "hl7v2_mapping" : "OBX.19",
+            "fhir_mapping" : "Observation.issued"
+          },
+          "/items[at0005]" : {
+            "hl7v2_mapping" : "OBX.11",
+            "fhir_mapping" : "Observation.status"
+          }
+        },
+        "nb" : {
+          "/items[at0024]" : {
+            "hl7v2_mapping" : "OBX.3",
+            "fhir_mapping" : "Observation.code"
+          },
+          "/items[at0001]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
+          },
+          "/items[at0003]" : {
+            "hl7v2_mapping" : "NTE.3",
+            "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0006]" : {
+            "hl7v2_mapping" : "OBX.19",
+            "fhir_mapping" : "Observation.issued"
+          },
+          "/items[at0005]" : {
+            "hl7v2_mapping" : "OBX.11",
+            "fhir_mapping" : "Observation.status"
+          }
+        },
+        "pt-br" : {
+          "/items[at0024]" : {
+            "hl7v2_mapping" : "*OBX-3.1;3.2(en)",
+            "fhir_mapping" : "*Observation.code(en)"
+          },
+          "/items[at0001]" : {
+            "hl7v2_mapping" : "*OBX.2,OBX.5,OBX.6(en)",
+            "fhir_mapping" : "*Observation.value[x](en)"
+          },
+          "/items[at0003]" : {
+            "hl7v2_mapping" : "*NTE.3(en)",
+            "fhir_mapping" : "*Observation.comments(en)"
+          },
+          "/items[at0006]" : {
+            "hl7v2_mapping" : "*OBX-22 and/or OBX-19(en)",
+            "fhir_mapping" : "*Observation.issued(en)"
+          },
+          "/items[at0005]" : {
+            "hl7v2_mapping" : "*OBX-11-observation result status(en)",
+            "fhir_mapping" : "*status(en)"
+          }
+        },
+        "de" : {
+          "/items[at0024]" : {
+            "hl7v2_mapping" : "OBX.3",
+            "fhir_mapping" : "Observation.code"
+          },
+          "/items[at0001]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
+          },
+          "/items[at0003]" : {
+            "hl7v2_mapping" : "NTE.3",
+            "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0006]" : {
+            "hl7v2_mapping" : "OBX.19",
+            "fhir_mapping" : "Observation.issued"
+          },
+          "/items[at0005]" : {
+            "hl7v2_mapping" : "OBX.11",
+            "fhir_mapping" : "Observation.status"
+          }
+        },
+        "nl" : {
+          "/items[at0024]" : {
+            "hl7v2_mapping" : "OBX.3",
+            "fhir_mapping" : "Observation.code"
+          },
+          "/items[at0001]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
+          },
+          "/items[at0003]" : {
+            "hl7v2_mapping" : "NTE.3",
+            "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0006]" : {
+            "hl7v2_mapping" : "OBX.19",
+            "fhir_mapping" : "Observation.issued"
+          },
+          "/items[at0005]" : {
+            "hl7v2_mapping" : "OBX.11",
+            "fhir_mapping" : "Observation.status"
+          }
+        },
+        "sv" : {
+          "/items[at0024]" : {
+            "hl7v2_mapping" : "OBX.3",
+            "fhir_mapping" : "Observation.code"
+          },
+          "/items[at0001]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
+          },
+          "/items[at0005]" : {
+            "hl7v2_mapping" : "OBX.11",
+            "fhir_mapping" : "Observation.status"
+          }
+        },
+        "es" : {
+          "/items[at0024]" : {
+            "hl7v2_mapping" : "OBX.3",
+            "fhir_mapping" : "Observation.code"
+          },
+          "/items[at0001]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
+          },
+          "/items[at0003]" : {
+            "hl7v2_mapping" : "NTE.3",
+            "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0006]" : {
+            "hl7v2_mapping" : "OBX.19",
+            "fhir_mapping" : "Observation.issued"
+          },
+          "/items[at0005]" : {
+            "hl7v2_mapping" : "OBX.11",
+            "fhir_mapping" : "Observation.status"
+          }
+        },
+        "ca" : {
+          "/items[at0024]" : {
+            "hl7v2_mapping" : "OBX.3",
+            "fhir_mapping" : "Observation.code"
+          },
+          "/items[at0001]" : {
+            "hl7v2_mapping" : "OBX.2, OBX.5, OBX.6, OBX.7, OBX.8",
+            "fhir_mapping" : "Observation.value[x]"
+          },
+          "/items[at0003]" : {
+            "hl7v2_mapping" : "NTE.3",
+            "fhir_mapping" : "Observation.note"
+          },
+          "/items[at0006]" : {
+            "hl7v2_mapping" : "OBX.19",
+            "fhir_mapping" : "Observation.issued"
+          },
+          "/items[at0005]" : {
+            "hl7v2_mapping" : "OBX.11",
+            "fhir_mapping" : "Observation.status"
+          }
+        }
+      }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.laboratory_test_analyte.v1",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-laboratory_test_analyte-001.v1"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "en" : { },
+        "nb" : { },
+        "pt-br" : { },
+        "de" : { },
+        "nl" : { },
+        "sv" : { },
+        "es" : { },
+        "ca" : { }
+      },
+      "termBindings" : { },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "bcb96bdf-9e91-4454-97cd-25444223b7af",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Michael Lieser, Antje Wulff, Natalia Strauch",
+        "organisation" : "Department of Infectious Diseases, Heidelberg University Hospital, Medizinische Hochschule Hannover",
+        "email" : "michael.lieser@med.uni-heidelberg.de, wulff.antje@mh-hannover.de, Strauch.Natalia@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Linda Aulin, Linda Aulin Lundeqvist",
+        "organisation" : "Region Stockholm, Karolinska University Hospital, Karolinska University Hospital, Region Stockholm",
+        "email" : "linda.aulin@sll.se, linda.aulin-lundeqvist@regionstockholm.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Silje Ljosland Bakke, Liv Laugen",
+        "organisation" : "Nasjonal IKT HF, ​Oslo University Hospital, Norway",
+        "email" : "liv.laugen@ous-hf.no"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Adriana Kitajima, Débora Farage, Fernanda Maia, Laíse Figueiredo, Marivan Abrahão",
+        "organisation" : "Core Consulting",
+        "email" : "contato@coreconsulting.com.br"
+      },
+      "accreditation" : "Hospital Alemão Oswaldo Cruz (HAOC)",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nl"
+      },
+      "author" : {
+        "name" : "Joost Holslag",
+        "organisation" : "Nedap",
+        "email" : "joost.holslag@nedap.com"
+      },
+      "accreditation" : "MD",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "es"
+      },
+      "author" : {
+        "name" : "Julio de Sosa",
+        "organisation" : "Servei Català de la Salut",
+        "email" : "juliodesosa@catsalut.cat"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ca"
+      },
+      "author" : {
+        "name" : "Julio de Sosa",
+        "organisation" : "Servei Català de la Salut",
+        "email" : "juliodesosa@catsalut.cat"
+      },
+      "otherDetails" : { }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "d948a4d5-360c-4d19-9b22-fbd67855f434",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "22CC4D6E678D5921D1235F94FF1DDDB1"
+      },
+      "details" : { }
+    },
+    "annotations" : {
+      "@type" : "RESOURCE_ANNOTATIONS",
+      "documentation" : {
+        "ar-sy" : {
+          "/items[at0071]" : {
+            "fhir_mapping" : "*Specimen.collection.collector(en)"
+          },
+          "/items[at0070]" : {
+            "fhir_mapping" : "*Specimen.collection.collector(en)"
+          },
+          "/items[at0013]" : {
+            "fhir_mapping" : "*Specimen.collection.sourceSite(en)"
+          },
+          "/items[at0001]" : {
+            "fhir_mapping" : "*Specimen.accessionIdentifier(en)"
+          },
+          "/items[at0034]" : {
+            "fhir_mapping" : "*Specimen.receivedTime(en)"
+          },
+          "/items[at0027]" : {
+            "fhir_mappings" : "*Specimen.collection.quantity(en)"
+          },
+          "/items[at0007]" : {
+            "fhir_mapping" : "*Specimen.collection.method(en)"
+          },
+          "/items[at0029]" : {
+            "fhir_mapping" : "*Specimen.type(en)"
+          }
+        },
+        "en" : {
+          "/items[at0071]" : {
+            "fhir_mapping" : "Specimen.collection.collector"
+          },
+          "/items[at0070]" : {
+            "fhir_mapping" : "Specimen.collection.collector"
+          },
+          "/items[at0088]" : {
+            "fhir_mapping" : "Specimen.identifier"
+          },
+          "/items[at0013]" : {
+            "fhir_mapping" : "Specimen.collection.sourceSite"
+          },
+          "/items[at0001]" : {
+            "fhir_mapping" : "Specimen.accessionIdentifier"
+          },
+          "/items[at0034]" : {
+            "fhir_mapping" : "Specimen.receivedTime"
+          },
+          "/items[at0045]" : {
+            "fhir_mapping" : "Specimen.note"
+          },
+          "/items[at0027]" : {
+            "fhir_mapping" : "Specimen.collection.quantity"
+          },
+          "/items[at0007]" : {
+            "fhir_mapping" : "Specimen.collection.method"
+          },
+          "/items[at0029]" : {
+            "fhir_mapping" : "Specimen.type"
+          }
+        },
+        "pt-br" : { },
+        "nb" : { },
+        "de" : {
+          "/items[at0071]" : {
+            "fhir_mapping" : "Specimen.collection.collector"
+          },
+          "/items[at0070]" : {
+            "fhir_mapping" : "Specimen.collection.collector"
+          },
+          "/items[at0088]" : {
+            "fhir_mapping" : "Specimen.identifier"
+          },
+          "/items[at0013]" : {
+            "fhir_mapping" : "Specimen.collection.bodySite"
+          },
+          "/items[at0001]" : {
+            "fhir_mapping" : "Specimen.accessionIdentifier"
+          },
+          "/items[at0034]" : {
+            "fhir_mapping" : "Specimen.receivedTime"
+          },
+          "/items[at0045]" : {
+            "fhir_mapping" : "Specimen.note"
+          },
+          "/items[at0027]" : {
+            "fhir_mapping" : "Specimen.collection.quantity"
+          },
+          "/items[at0007]" : {
+            "fhir_mapping" : "Specimen.collection.method"
+          },
+          "/items[at0029]" : {
+            "fhir_mapping" : "Specimen.type"
+          }
+        },
+        "sv" : {
+          "/items[at0027]" : {
+            "fhir_mapping" : "Specimen.collection.quantity"
+          }
+        }
+      }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.specimen.v1",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-specimen-001.v1"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "ar-sy" : { },
+        "en" : { },
+        "pt-br" : { },
+        "nb" : { },
+        "de" : { },
+        "sv" : { }
+      },
+      "termBindings" : { },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "2135a42f-2b06-49c7-a71b-dd68896fa178",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Sarah Ballout, Antje Wulff, Natalia Strauch",
+        "organisation" : "PLRI for Medical Informatics Medical School Hannover and TU Braunschweig, Medizinische Hochschule Hannover",
+        "email" : "Ballout.Sarah@mh-hannover.de, wulff.antje@mh-hannover.de, Strauch.Natalia@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Linda Aulin, Erik Sundvall",
+        "organisation" : "Region Stockholm, Karolinska Institutet + Karolinska University Hospital, Region Stockholm + Linköping University",
+        "email" : "linda.aulin-lundeqvist@regionstockholm.se, erik.sundvall@regionstockholm.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Kristian Berg, Gro-Hilde Ulriksen, Line Silsand, Silje Ljosland Bakke, Liv Laugen",
+        "organisation" : "Universitetssykehuset Nord-Norge, Helse Vest IKT AS, ​Oslo University Hospital, Norway",
+        "email" : "kristian.berg@unn.no, gro-hilde.ulriksen@unn.no, line.silsand@unn.no, silje.ljosland.bakke@helse-vest-ikt.no, liv.laugen@ous-hf.no"
+      },
+      "accreditation" : "*",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Adriana Kitajima, Débora Farage, Fernanda Maia, Laíse Figueiredo, Marivan Abrahão",
+        "organisation" : "Core Consulting",
+        "email" : "contato@coreconsulting.com.br"
+      },
+      "accreditation" : "Hospital Alemão Oswaldo Cruz (HAOC)",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ar-sy"
+      },
+      "author" : {
+        "name" : "Mona Saleh"
+      },
+      "otherDetails" : { }
+    } ]
+  } ],
+  "originalLanguage" : {
+    "terminologyId" : {
+      "value" : "ISO_639-1"
+    },
+    "codeString" : "en"
+  },
+  "translations" : [ {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "de"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "sv"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nb"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "pt-br"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ar-sy"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "it"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "zh-cn"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nl"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ca"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  } ]
+}
